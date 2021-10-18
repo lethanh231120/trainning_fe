@@ -70,7 +70,7 @@ body {
   z-index: -1;
   top: -870px;
   width: 2700px;
-  background-color:#f6f6f6;
+  background-color:#F2F2F2;
 }
 .nav-item{
   cursor: pointer;
@@ -2035,6 +2035,15 @@ body {
   }
   .prices{
     padding: 70px 10px 70px 10px;
+  }
+  .client{
+    height: auto;
+  }
+  .client .flickity-viewport{
+    min-height: 970px;
+  }
+  .client-text{
+    padding: 10px 0;
   }
   .client .flickity-page-dots{
     display: none;

@@ -752,7 +752,7 @@ body {
   font-style: italic;
   font-size: 20px;
 }
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1366.98px){
   .navbar{
     padding: 23px 9%;
   }
@@ -775,8 +775,9 @@ body {
     padding: 140px 0;
   }
   .banner-background{
-    top: -12%;
-    height: 90vh;
+    top: -11.5%;
+    right: -10%;
+    height: 750px;
   }
   .banner_text{
     padding: 30px 0 0 9.7%;
@@ -948,8 +949,11 @@ body {
   .client-text{
     margin-top: 40px;
   }
+  .client .flickity-viewport{
+    height: 500px !important;
+  }
   .client .flickity-page-dots{
-    bottom:50px !important;
+    bottom:10px !important;
   }
   .recent{
     margin-top: 80px;
@@ -977,7 +981,7 @@ body {
     padding:80px 9.5% 75px 9.5%;
   }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023.98px){
   .navbar{
     padding: 33px 6%;
   }
@@ -1034,6 +1038,9 @@ body {
     width: 7px;
     height: 7px;
   }
+  .client .flickity-viewport{
+    height: 550px !important;
+  }
   .client .flickity-page-dots{
     bottom:30px !important;
   }
@@ -1046,13 +1053,13 @@ body {
     margin-left: -20px;
   }
 }
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991.98px){
   #email_error{
     font-size: 14px;
   }
   .navbar-nav{
-    width: 110%;
-    margin-left: -10%;
+    padding-left: 0;
+    width: 100%;
   }
   .menu{
     opacity: 0;
@@ -1085,7 +1092,6 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-    padding: 0 0 0 20px;
   }
   .menu .btn{
     font-size: 18px;
@@ -1556,7 +1562,7 @@ body {
     margin: 20px 0 0 0;
   }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
   .partner{
     padding: 30px;
   }
@@ -1566,12 +1572,15 @@ body {
   .partner-icon img{
     width: 80%;
   }
+  .client{
+    height: 490px;
+  }
   .banner_text-button .button{
     padding:8px 10px ;
     font-size: 14px;
   }
 }
-@media screen and (max-width:575px){
+@media screen and (max-width:575.98px){
   #email_error{
     font-size: 16px;
   }
@@ -1904,7 +1913,7 @@ body {
     height: 10px;
   }
   .client .flickity-viewport{
-    height: 940px !important;
+    height: 760px !important;
   }
   .recent{
     margin-top: 160px !important;
@@ -2009,7 +2018,7 @@ body {
     margin:32px 0 0 3px ;
   }
 }
-@media screen and (max-width:465px){
+@media screen and (max-width:465.98px){
   .button{
     padding: 0;
     width: calc(100% / 2 - 10px);
@@ -2035,16 +2044,13 @@ body {
     padding: 70px 10px 70px 10px;
   }
   .client{
-    height: auto;
+    height: 900px;
   }
   .client .flickity-viewport{
-    min-height: 850px;
+    height: 900px !important;
   }
   .client-text{
     padding: 10px 0;
-  }
-  .client .flickity-page-dots{
-    display: none;
   }
   .recent{
     margin-top: 70px !important;
